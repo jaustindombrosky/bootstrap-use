@@ -1,0 +1,67 @@
+body { 
+    font-family:sans-serif; 
+    font-weight:bold; 
+    font-size:16pt;
+    background: url('https://www.worldmapsonline.com/images/murals/miller_world_physical_wall_mural_lg.jpg');
+    background-size: 100%;
+}
+.container {
+    height:210px;    
+}
+.wordcontainer{
+    height:auto;
+}
+
+.sidecontainer {
+    margin-top:45px;
+    margin-left:130px;
+    width:180px;
+    text-align:center;
+    opacity: .92;
+}
+.guessedletters {
+    color:#6f5a2d;
+}
+.inputarea {
+    width:180px;
+    height:31px;
+    margin:auto;
+    padding:3pt;
+    border: 1px #6f5a2d solid;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius:15px;
+    background:#ebe2ce;
+}
+#letterinput {
+    border:1px #6f5a2d solid;
+    width:20pt;
+    font-size:14pt;
+    text-align:center;
+}
+.guessedletter {
+    color:#792c15;
+}
+
+.wordbox {
+    width:375px;
+    margin:auto;
+    margin-top:25px;
+    text-align:center;
+    opacity: .92;
+}
+.worddisplay {
+    background:#ebe2ce;
+    border:1px #6f5a2d solid;
+    height:31px;
+    padding:3pt;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius:15px;
+}
+.shownletter {
+    border-bottom: 3px #000 solid;
+    padding: 0 2px;
+    margin: 0 2px;
+    color:#1c2025;
+}
