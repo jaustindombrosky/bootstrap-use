@@ -1,62 +1,60 @@
 $(document).ready(function() {
 
-    /*let audio = new Audio('assets/);*/
-
     let characters = {
         'aragorn': {
             name: 'aragorn',
             health: 120,
             attack: 8,
-            imageUrl: "assets/images/aragorn5.png",
+            imageUrl: "images/aragorn5.png",
             enemyAttackBack: 15
         }, 
         'legolas': {
             name: 'legolas',
             health: 100,
             attack: 14,
-            imageUrl: "assets/images/legolas3.png",
+            imageUrl: "images/legolas3.png",
             enemyAttackBack: 5
         }, 
         'sauron': {
             name: 'sauron',
             health: 150,
             attack: 8,
-            imageUrl: "assets/images/sauron5.png",
+            imageUrl: "images/sauron5.png",
             enemyAttackBack: 20
         }, 
         'Gimli': {
             name: 'Gimli',
             health: 180,
             attack: 7,
-            imageUrl: "assets/images/gimli2.png",
+            imageUrl: "images/gimli2.png",
             enemyAttackBack: 20
         },
         'Gandalf': {
           name: 'Gandalf',
           health: 130,
           attack: 9,
-          imageUrl: "assets/images/gandalf4.png",
+          imageUrl: "images/gandalf4.png",
           enemyAttackBack: 18
         },
         'Balrog': {
           name: 'Balrog',
           health: 140,
           attack: 10,
-          imageUrl: "assets/images/balrog4.png",
+          imageUrl: "images/balrog4.png",
           enemyAttackBack: 10
         },
         'Saruman': {
           name: 'Saruman',
           health: 90,
           attack: 17,
-          imageUrl: "assets/images/saruman3.png",
+          imageUrl: "images/saruman3.png",
           enemyAttackBack: 8
         },
         'the witch king': {
           name: 'the witch king',
           health: 170,
           attack: 8,
-          imageUrl: "assets/images/witchking2.png",
+          imageUrl: "images/witchking2.png",
           enemyAttackBack: 22
         }
       };

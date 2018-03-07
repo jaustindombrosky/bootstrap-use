@@ -1,0 +1,70 @@
+html, body{
+    height:100%;
+  }
+  
+  body{
+    background-image: url(images/startrekbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  
+  }
+  
+  #container{
+    margin:2.5% auto;
+    width:960px;
+    height: 95%;
+    box-sizing: border-box;
+  }
+  
+  #sub-container{
+    position: relative;
+    background-color: rgb(217, 224, 176);
+    opacity: .9;
+  }
+  button{
+    display:block;
+    width:50%;
+    height:20%;
+    margin: 0 auto;
+    border:none;
+    cursor: pointer;
+    background:transparent;
+    font-size: 42px;;
+  }
+  
+  img{
+    height:200px;
+  }
+  
+  h1{
+    font-family: 'Aclonica', sans-serif;
+    font-size: 6.5em;
+    font-weight: bold;
+    color:rgb(58, 39, 230);
+    padding-top: 2.5%;
+  }
+  
+  h2{
+    font-size: 35px;
+    margin-bottom: 25px;
+    color: rgb(58, 39, 230);
+  }
+  
+  h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  #start{
+    margin-top: 10%;
+
+
+  }
+  
+  
+  
+  button:hover {
+    border:2px solid blue;
+    background: rgb(230, 226, 39);
+  }
